@@ -1,0 +1,109 @@
+
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url('./cherry-blossom-tree.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Navigation styles */
+.navigation {
+  margin: 2rem auto 3rem auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__icon {
+  height: 4.5rem;
+  width: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  cursor: pointer;
+  background-color: var(--background-color);
+  transition: background-color 0.3s ease;
+}
+
+.navigation__icon:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 2.5rem;
+
+}
+/* LoginForm styles */
+.login-form {
+  background-color: #fbdff158;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.114);
+  padding: 20px;
+  width: 350px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 30px 0 #655858;
+  backdrop-filter: blur(3.5px);
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.login-form h3 {
+  margin: 1rem 0 2rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #eb72d1 0%,rgb(246, 189, 223) 79%);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  width: 65%;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+
+}
+.login-form__field {
+  display: flex;
+  flex-direction: column;;
+  margin-bottom: 10px;
+}
+
+.login-form__field label {
+  margin-bottom: 5px;
+}
+
+.login-form__field input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 2rem;
+  font-size: 20px;
+  width: 100%;
+  height: 2rem;
+  border: none;
+  outline: none;
+  background:rgba(255, 255, 255, 0.608);
+  box-shadow: 0 2px 30px 0 #a9a4a4;
+}
+
